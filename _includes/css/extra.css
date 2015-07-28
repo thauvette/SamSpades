@@ -345,3 +345,7 @@ menu {
   border:none;
   margin:auto;
 }
+
+td.bit-date{
+  width:57px !important;
+}
