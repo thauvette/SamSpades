@@ -1,0 +1,13 @@
+<!-- Latest Section -->
+<section id="latest" class="container-fluid content-section text-center">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            <h2>Latest News</h2>
+            <div class="blog-index">  
+			  {% assign post = site.posts.first %}
+			  {% assign content = post.content %}
+			  {% include post_detail.html %}
+			</div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,16 @@
+---
+layout: news
+title: news
+description: The Chronos Band
+---
+
+	<ul class="post_list row">
+	    {% for post in site.posts limit 10 %}
+	    <li class="col-md-6">
+	    	<h2>{{ post.title }}</h2>
+	    	<h6>{{ post.date | date_to_string }}</h6>
+	        {{ post.content | truncatewords:75}}<br>
+	           <p><a href="{{ post.url }}">Full Article...</a></p><br><br>
+	    {% endfor %}
+	    </li>
+	</ul>

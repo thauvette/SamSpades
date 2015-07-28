@@ -1,0 +1,8 @@
+<h1 class="entry-title">
+
+{% if post.title %}
+    <!-- <h3>{{ post.title }}</h3> -->
+{% endif %}
+</h1>
+<div class="entry-content">{{ content }}</div>
+<p><a class="more" href="{{ root_url }}{{ post.url }}">Full Article</a></p>
