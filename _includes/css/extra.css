@@ -327,6 +327,10 @@ menu {
   outline-color:#42dca3
 }
 
+.form-message {
+  min-height:150px !important;
+}
+
 .btn-default {
   border: 1px solid #000;
   color: #000;

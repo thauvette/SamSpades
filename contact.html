@@ -6,12 +6,11 @@ layout: pages
 <form class="contact-form" action="//formspree.io/sam@samspades.ca" method="POST">
 	<p>Name</p>
 	<input class="form-item" type="text" name="name">
-	<p>Your Email</p>
+	<p>Email</p>
 	<input class="form-item" type="email" name="_replyto">
-	<p>Subject</p>
-	<input class="form-item" type="subect" name="_subject" />
-	<p>Your Message</p>
-	<input class="form-item message" "message" type="text" />
+	<input type="hidden" name="_subject" value="New submission!" />
+	<p>Message</p>
+	<textarea class="form-item form-message" name="message"></textarea>
 	<input type="text" name="_gotcha" style="display:none" />
 	<button class="btn btn-default btn-lg"><i class="fa fa-paper-plane-o"></i> 
 	  <input class="send-btn" type="submit" value="Send" /></button>
